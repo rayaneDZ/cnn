@@ -5,6 +5,10 @@ import os
 import cv2
 import pickle
 
+print(os.listdir('./').reverse())
+import sys
+sys.exit()
+
 DATADIR = "../Datasets/PetImages"
 CATEGORIES = ["Dog", "Cat"]
 
